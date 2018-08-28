@@ -1,0 +1,5 @@
+name: GrassPatcher
+main: cc.funkemunky.patcher.GrassPatcher
+description: Patching all lag, bugs, and exploits.
+author: funkemunky
+version: 0.0.1~ALPHA

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GrassPatcher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GrassPatcher_jar</output-path>
+    <root id="archive" name="GrassPatcher.jar">
+      <element id="module-output" name="GrassPatcher" />
+    </root>
+  </artifact>
+</component>
