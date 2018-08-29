@@ -10,8 +10,8 @@ import java.util.concurrent.atomic.AtomicReference;
 public class Config {
 
     public static int max_tnt_per_tick = 100;
-    public static boolean tnt_knockback = true;
-    public static boolean fixcannons = true;
+    public static boolean player_knockback = true;
+    public static boolean fix_cannons = true;
 
 
     List<Section> sections;
@@ -24,9 +24,9 @@ public class Config {
     }
 
     private void init() {
-        max_tnt_per_tick = (int) getOptimization("tnt", "max-tnt-per-tick");
-        tnt_knockback = (boolean) getOptimization("tnt", "player-knockback");
-        fixcannons = (boolean) getOptimization("tnt", "fix-cannons");
+        max_tnt_per_tick = (int) getOptimization("tnt", "max_tnt_per_tick");
+        player_knockback = (boolean) getOptimization("tnt", "player_knockback");
+        fix_cannons = (boolean) getOptimization("tnt", "fix_cannons");
     }
 
     public Section getSectionByName(String name) {
@@ -39,7 +39,7 @@ public class Config {
         String path = "optimizations." + category + "." + name;
         if(GrassPatcher.INSTANCE.getConfig().get(path) == null) {
             try {
-                GrassPatcher.INSTANCE.getConfig().set(path,this.getClass().getDeclaredField(name).get(GrassPatcher.INSTANCE.configObject));
+                GrassPatcher.INSTANCE.getConfig().set(path,this.getClass().getDeclaredField(name).get(this));
                 GrassPatcher.INSTANCE.saveConfig();
             } catch (IllegalAccessException | NoSuchFieldException e) {
                 e.printStackTrace();

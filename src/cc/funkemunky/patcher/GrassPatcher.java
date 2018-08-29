@@ -4,6 +4,7 @@ import cc.funkemunky.patcher.commands.FunkeCommandManager;
 import cc.funkemunky.patcher.listeners.EntitySpawnEvent;
 import cc.funkemunky.patcher.objects.PatchedRedstoneWirev1_8_R1;
 import cc.funkemunky.patcher.objects.PatchedBlockTNT;
+import cc.funkemunky.patcher.objects.PatchedRedstoneWirev1_8_R3;
 import cc.funkemunky.patcher.utils.Config;
 import cc.funkemunky.patcher.utils.CustomEntityType;
 import cc.funkemunky.patcher.utils.MiscUtils;
@@ -11,6 +12,7 @@ import cc.funkemunky.patcher.utils.ReflectUtil;
 import cc.funkemunky.patcher.utils.ReflectionUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Maps;
+import com.ngxdev.tinyprotocol.api.TinyProtocolHandler;
 import lombok.Getter;
 import net.minecraft.server.v1_8_R3.Block;
 import net.minecraft.server.v1_8_R3.Blocks;
@@ -31,10 +33,10 @@ public class GrassPatcher extends JavaPlugin {
     public static GrassPatcher INSTANCE;
     public Config configObject;
     private ReflectionUtils reflectionUtils;
+    private TinyProtocolHandler protocol;
     private MiscUtils miscUtils;
     private ExecutorService[] services = new ExecutorService[Runtime.getRuntime().availableProcessors()];
     private int current = 0;
-    private Object registryObject = reflectionUtils.newInstance(reflectionUtils.getNMSClass("Registry"));
     private FunkeCommandManager commandManager;
 
     private Object get(final String s) {
@@ -71,18 +73,20 @@ public class GrassPatcher extends JavaPlugin {
             services[i] = Executors.newSingleThreadScheduledExecutor();
         }
 
-        INSTANCE = this;
-        commandManager = new FunkeCommandManager();
+        initializeUtils();
         if(reflectionUtils.isBukkitVerison("1_8_R1")) {
             cc.funkemunky.patcher.objects.RedstoneWire wire = new PatchedRedstoneWirev1_8_R1();
             add(55, "redstone_wire", (net.minecraft.server.v1_8_R1.Block) wire);
             ReflectUtil.setStatic("REDSTONE_WIRE", net.minecraft.server.v1_8_R1.Blocks.class, get("redstone_wire"));
+        } else {
+            cc.funkemunky.patcher.objects.RedstoneWire wire = new PatchedRedstoneWirev1_8_R3();
+            add(55, "redstone_wire", (Block) wire);
+            ReflectUtil.setStatic("REDSTONE_WIRE", Blocks.class, get("redstone_wire"));
         }
 
         init();
         add(46, "tnt", new PatchedBlockTNT());
         ReflectUtil.setStatic("TNT", Blocks.class, get("tnt"));
-        initializeUtils();
     }
 
     public void init() {
@@ -94,11 +98,14 @@ public class GrassPatcher extends JavaPlugin {
     }
 
     private void initializeUtils() {
+        INSTANCE = this;
         reflectionUtils = new ReflectionUtils();
         miscUtils = new MiscUtils();
         configObject = new Config();
+        protocol = new TinyProtocolHandler();
+        commandManager = new FunkeCommandManager();
 
-        getServer().getPluginManager().registerEvents(new EntitySpawnEvent(), this);
+        //getServer().getPluginManager().registerEvents(new EntitySpawnEvent(), this);
     }
 
     private void removeEntity(String name, int id) {

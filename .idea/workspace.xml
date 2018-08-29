@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2052bc8e-8398-4698-a8f2-00e2f5c76dae" name="Default" comment="" />
+    <list default="true" id="2052bc8e-8398-4698-a8f2-00e2f5c76dae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/paperspigot_1_7_10_R0_1_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/GrassPatcher.iml" afterPath="$PROJECT_DIR$/GrassPatcher.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GrassPatcher_jar/GrassPatcher.jar" afterPath="$PROJECT_DIR$/out/artifacts/GrassPatcher_jar/GrassPatcher.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/GrassPatcher.class" afterPath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/GrassPatcher.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/listeners/EntitySpawnEvent.class" afterPath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/listeners/EntitySpawnEvent.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/objects/Explosion.class" afterPath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/objects/Explosion.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/objects/PatchedPrimedTnt.class" afterPath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/objects/PatchedPrimedTnt.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/utils/Config.class" afterPath="$PROJECT_DIR$/out/production/GrassPatcher/cc/funkemunky/patcher/utils/Config.class" />
+      <change beforePath="$PROJECT_DIR$/src/cc/funkemunky/patcher/GrassPatcher.java" afterPath="$PROJECT_DIR$/src/cc/funkemunky/patcher/GrassPatcher.java" />
+      <change beforePath="$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java" afterPath="$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java" afterPath="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java" />
+      <change beforePath="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java" afterPath="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +32,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GrassPatcher.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/GrassPatcher.java">
+      <file leaf-file-name="PatchedPrimedTnt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="259">
+              <caret line="391" column="25" lean-forward="false" selection-start-line="391" selection-start-column="25" selection-end-line="391" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#15646#15647#0" expanded="true" />
+                <element signature="e#15715#15716#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
+                <element signature="e#15833#15834#0" expanded="true" />
+                <element signature="e#17730#17731#0" expanded="true" />
+                <element signature="e#17764#17765#0" expanded="true" />
+                <element signature="e#17800#17801#0" expanded="true" />
+                <element signature="e#17827#17828#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityItem.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityItem.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/World.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="1738" column="4" lean-forward="false" selection-start-line="1738" selection-start-column="4" selection-end-line="1747" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Explosion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="196" column="46" lean-forward="false" selection-start-line="196" selection-start-column="46" selection-end-line="196" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#13099#13100#0" expanded="true" />
+                <element signature="e#13128#13129#0" expanded="true" />
+                <element signature="e#13815#13816#0" expanded="true" />
+                <element signature="e#13849#13850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityTNTPrimed.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="76" column="13" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="76" selection-end-column="13" />
+              <folding>
+                <element signature="e#3077#3078#0" expanded="true" />
+                <element signature="e#3140#3141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatchedRedstoneWirev1_8_R1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_8_R1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1492">
+              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,22 +113,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectionUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectionUtils.java">
+      <file leaf-file-name="PatchedBlockTNT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedBlockTNT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="156" column="64" lean-forward="false" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+            <state relative-caret-position="259">
+              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4834#4835#0" expanded="true" />
+                <element signature="e#4862#4863#0" expanded="true" />
+                <element signature="e#4909#4910#0" expanded="true" />
+                <element signature="e#4977#4978#0" expanded="true" />
+                <element signature="e#5031#5032#0" expanded="true" />
+                <element signature="e#5095#5096#0" expanded="true" />
+                <element signature="e#5142#5143#0" expanded="true" />
+                <element signature="e#5217#5218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entity.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Entity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="2072" column="22" lean-forward="false" selection-start-line="2072" selection-start-column="19" selection-end-line="2072" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedstoneWire.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/RedstoneWire.java">
+      <file leaf-file-name="AntiXray.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/spigotmc/AntiXray.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="155">
+              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1523118484000" expanded="false" signature="136:469" ph="..." />
+                <marker date="1523118484000" expanded="true" signature="852:1480" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="1554:1746" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="1843:2045" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="2138:5228" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="5335:6126" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="6213:6566" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="6672:7170" ph="{...}" />
+                <marker date="1523118484000" expanded="true" signature="7225:7326" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,43 +169,43 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setTileEntity</find>
-      <find>isSolid</find>
-      <find>Block</find>
-      <find>;</find>
-      <find>HORIZONTAL</find>
-      <find>if(d</find>
-      <find>isSolid() &amp;&amp;</find>
-      <find>World world,</find>
-      <find>World world</find>
-      <find>(iBlock</find>
-      <find>getSidesToPower</find>
-      <find>(IBlockAccess</find>
-      <find>(World world,</find>
-      <find>(World world, BlockPosition</find>
-      <find>d(World</find>
-      <find>d(</find>
-      <find>solidBlock</find>
-      <find>doPhysics</find>
-      <find>EnumDirection</find>
-      <find>remove</find>
-      <find>e(</find>
-      <find>net.minecraft.server.v1_8_R3.</find>
-      <find>d(</find>
-      <find>{}</find>
-      <find>e(</find>
-      <find>&lt;IBlockData&gt;</find>
-      <find>BlockStateList</find>
-      <find>a(</find>
-      <find>P(</find>
-      <find>add(</find>
+      <find>blockPosition =</find>
+      <find>TNT</find>
+      <find>ex</find>
+      <find>this.world.spigotConfig.antiXrayInstance.updateNearbyBlocks(this.world, blockposition);</find>
+      <find>updateNearbyBlocks</find>
+      <find>flag</find>
+      <find>= true</find>
+      <find>boolean a</find>
+      <find>PatchedPrimedTnt</find>
+      <find>wasExpl</find>
+      <find>createEx</find>
+      <find>dropNat</find>
+      <find>new Ex</find>
+      <find>aW(</find>
+      <find>EXPLODE</find>
+      <find>Knockback</find>
+      <find>List&lt;Entity&gt; entities</find>
+      <find>Explosion</find>
+      <find>this.w</find>
+      <find>entities</find>
+      <find>getExecutor</find>
+      <find>for(</find>
+      <find>world.addEntity</find>
+      <find>createExplo</find>
+      <find>getE</find>
+      <find>getExe</find>
+      <find>wasEx</find>
+      <find>wasExploded</find>
+      <find>createExplosion</find>
+      <find>was</find>
     </findStrings>
     <replaceStrings>
       <replace>GrassPatcher</replace>
@@ -109,7 +224,14 @@
       <replace>{}</replace>
       <replace>1_9_R1</replace>
       <replace>;</replace>
+      <replace>cc.funkemunky.patcher.utils.MathUtils</replace>
+      <replace>import cc.funkemunky.patcher.utils.MathUtils;</replace>
+      <replace>GrassPatcher.INSTANCE</replace>
+      <replace>_</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -125,27 +247,30 @@
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Color.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectUtil.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/EntityTypes.java" />
-        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedBlockTNT.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeArgument.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeCommandManager.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/GrassCommand.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeCommand.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/args/ReloadArgument.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/CustomEntityType.java" />
-        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java" />
-        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedEntityFallingBlock.java" />
         <option value="$PROJECT_DIR$/resources/config.yml" />
-        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java" />
-        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PandaRedstoneWire.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_7_R4.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/RedstoneWire.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_9_R1.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_8_R3.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_8_R1.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/MathUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/out/WrappedOutNamedEntitySpawn.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectionUtils.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java" />
+        <option value="$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/api/TinyProtocolHandler.java" />
         <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/GrassPatcher.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedBlockTNT.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java" />
+        <option value="$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java" />
       </list>
     </option>
   </component>
@@ -155,6 +280,7 @@
     <option name="width" value="1680" />
     <option name="height" value="938" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -240,7 +366,31 @@
             </path>
             <path>
               <item name="GrassPatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GrassPatcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyprotocol" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GrassPatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GrassPatcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyprotocol" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GrassPatcher" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="GrassPatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="QuantumSpigot v1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="GrassPatcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="QuantumSpigot v1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="QuantumSpigot v1.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +411,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="RegistryId&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.RegistryID&#10;BlockStateList&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.BlockStateList&#10;Block&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/PaperSpigot-1.8-R0.1-SNAPSHOT-b235.jar!/net/minecraft/server/v1_8_R1/Block.class&#10;BlockRegistry&#9;PSI&#9;JAVA://net.techcable.tacospigot.BlockStateRegistry&#10;Registry&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.Registry&#10;net.minecraft.server.v1_9_R1.Block&#9;PSI&#9;JAVA://net.minecraft.server.v1_9_R1.Block&#10;BlockREdstone&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BlockRedstoneWire.class&#10;Redstone&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BlockRedstoneWire.class&#10;World&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/World.class&#10;v1_9_R1&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.9-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_9_R1&#10;BlockRedstoneWire&#9;PSI&#9;JAVA://net.minecraft.server.v1_9_R1.BlockRedstoneWire&#10;EntityTntPr&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;BukkitRunnable&#9;PSI&#9;JAVA://org.bukkit.scheduler.BukkitRunnable&#10;Entity&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Entity.class&#10;EntityTNTPR&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;Explosion&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.Explosion&#10;EntityTracker&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTracker.class&#10;EntityTNTPr&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;EntityTN&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;EntityTNTPrimed&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityTNTPrimed&#10;EntityFallingBlock&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityFallingBlock&#10;EntityTypes&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityTypes&#10;BiomMeta&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.BiomeBase.BiomeMeta&#10;EntityInsentient&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityInsentient&#10;EntityCreature&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityCreature&#10;EntityMonster&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityMonster&#10;EntitySkele&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntitySkeleton&#10;CraftTnt&#9;PSI&#9;JAVA://org.bukkit.craftbukkit.v1_8_R3.entity.CraftTNTPrimed&#10;CraftEntity&#9;PSI&#9;JAVA://org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity&#10;EntityTNT&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;BlockTNT&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.BlockTNT&#10;JavaPlugin&#9;PSI&#9;JAVA://org.bukkit.plugin.java.JavaPlugin&#10;Blocks&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.Blocks" />
+    <property name="SearchEverywhereHistoryKey" value="Block&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.9-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_9_R1/Block.class&#10;EntityItem&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityItem&#10;EntityPr&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;Entity&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Entity.class&#10;World&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/World.class&#10;AntiXray&#9;PSI&#9;JAVA://org.spigotmc.AntiXray&#10;Explosion&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/craftbukkit-1.8.8.jar!/net/minecraft/server/v1_8_R3/Explosion.class&#10;IBlockAcces&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.IBlockAccess&#10;spigotConfig&#9;PSI&#9;JAVA://org.spigotmc.SpigotConfig&#10;EntityTNTPr&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;PacketPlayOutSpawnEntity&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/PaperSpigot-1.8-R0.1-SNAPSHOT-b235.jar!/net/minecraft/server/v1_8_R1/PacketPlayOutSpawnEntity.class&#10;PlayerConnection&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.PlayerConnection&#10;enableNoClientLag&#9;PSI&#9;JAVA://me.leftwitch.util.QuantumConfig#enableNoClientLag&#10;QuanTumConfig&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/me/leftwitch/util/QuantumConfig.class&#10;BlockTnt&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/BlockTNT.class&#10;EntityTntPrimed&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;RegistryId&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.RegistryID&#10;BlockStateList&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.BlockStateList&#10;BlockRegistry&#9;PSI&#9;JAVA://net.techcable.tacospigot.BlockStateRegistry&#10;Registry&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R1.Registry&#10;net.minecraft.server.v1_9_R1.Block&#9;PSI&#9;JAVA://net.minecraft.server.v1_9_R1.Block&#10;BlockREdstone&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BlockRedstoneWire.class&#10;Redstone&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BlockRedstoneWire.class&#10;v1_9_R1&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.9-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_9_R1&#10;BlockRedstoneWire&#9;PSI&#9;JAVA://net.minecraft.server.v1_9_R1.BlockRedstoneWire&#10;EntityTntPr&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;BukkitRunnable&#9;PSI&#9;JAVA://org.bukkit.scheduler.BukkitRunnable&#10;EntityTNTPR&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;EntityTracker&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTracker.class&#10;EntityTN&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;EntityTNTPrimed&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityTNTPrimed&#10;EntityFallingBlock&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityFallingBlock&#10;EntityTypes&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityTypes&#10;BiomMeta&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.BiomeBase.BiomeMeta&#10;EntityInsentient&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityInsentient&#10;EntityCreature&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityCreature&#10;EntityMonster&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntityMonster&#10;EntitySkele&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.EntitySkeleton&#10;CraftTnt&#9;PSI&#9;JAVA://org.bukkit.craftbukkit.v1_8_R3.entity.CraftTNTPrimed&#10;CraftEntity&#9;PSI&#9;JAVA://org.bukkit.craftbukkit.v1_8_R3.entity.CraftEntity&#10;EntityTNT&#9;FILE&#9;jar:///Users/dawson/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class&#10;BlockTNT&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.BlockTNT&#10;JavaPlugin&#9;PSI&#9;JAVA://org.bukkit.plugin.java.JavaPlugin&#10;Blocks&#9;PSI&#9;JAVA://net.minecraft.server.v1_8_R3.Blocks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -375,7 +525,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -410,13 +560,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -432,648 +582,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityInsentient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityCreature.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityMonster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntitySkeleton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BiomeBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="217" column="35" lean-forward="false" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityFallingBlock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="227" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="227" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="178" column="48" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeCommandManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#387#388#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeArgument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="47" column="64" lean-forward="false" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/GrassCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/FunkeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="46" column="59" lean-forward="true" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/args/ReloadArgument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/CustomEntityType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="18" column="101" lean-forward="false" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="218" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1662#1663#0" expanded="false" />
-            <element signature="e#1694#1695#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1750#1751#0" expanded="false" />
-            <element signature="e#1791#1792#0" expanded="false" />
-            <element signature="e#1829#1830#0" expanded="false" />
-            <element signature="e#1881#1882#0" expanded="false" />
-            <element signature="e#1917#1918#0" expanded="false" />
-            <element signature="e#1972#1973#0" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Explosion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3525">
-          <caret line="256" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTracker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Entity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12465">
-          <caret line="831" column="21" lean-forward="false" selection-start-line="831" selection-start-column="19" selection-end-line="831" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/scheduler/BukkitRunnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523118484000" expanded="false" signature="144:195" ph="..." />
-            <marker date="1523118484000" expanded="true" signature="314:321" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="390:457" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="572:680" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="809:931" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="1063:1183" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="1329:1463" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="1608:1736" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="1895:2037" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2108:2285" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2317:2451" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2501:2569" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/scheduler/BukkitScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523118484000" expanded="false" signature="144:266" ph="..." />
-            <marker date="1523118484000" expanded="true" signature="380:398" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="560:578" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="753:771" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="884:902" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="997:1015" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="1099:1117" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="1633:1651" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="1862:1880" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="2107:2125" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="2368:2386" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="2640:2658" ph="/**...*/" />
-            <marker date="1523118484000" expanded="true" signature="2923:2941" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/bukkit/scheduler/BukkitWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="112" column="22" lean-forward="false" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#12645#12646#0" expanded="false" />
-            <element signature="e#12674#12675#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedEntityFallingBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="125" column="13" lean-forward="false" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="83" column="82" lean-forward="false" selection-start-line="83" selection-start-column="71" selection-end-line="83" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="197" column="5" lean-forward="false" selection-start-line="167" selection-start-column="3" selection-end-line="197" selection-end-column="5" />
-          <folding>
-            <marker date="1517534523000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1517534523000" expanded="false" signature="152:396" ph="..." />
-            <marker date="1517534523000" expanded="false" signature="631:642" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="670:676" ph=" }" />
-            <marker date="1517534523000" expanded="true" signature="732:987" ph="{...}" />
-            <marker date="1517534523000" expanded="true" signature="1103:1668" ph="{...}" />
-            <marker date="1517534523000" expanded="true" signature="1693:1700" ph="{}" />
-            <marker date="1517534523000" expanded="false" signature="1728:1739" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="1752:1758" ph=" }" />
-            <marker date="1517534523000" expanded="false" signature="1783:1794" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="1812:1818" ph=" }" />
-            <marker date="1517534523000" expanded="true" signature="1841:3229" ph="{...}" />
-            <marker date="1517534523000" expanded="true" signature="3258:4122" ph="{...}" />
-            <marker date="1517534523000" expanded="true" signature="4176:4528" ph="{...}" />
-            <marker date="1517534523000" expanded="true" signature="4582:5000" ph="{...}" />
-            <marker date="1517534523000" expanded="false" signature="5037:5048" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="5067:5073" ph=" }" />
-            <marker date="1517534523000" expanded="true" signature="5128:5482" ph="{...}" />
-            <marker date="1517534523000" expanded="false" signature="5507:5518" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="5580:5586" ph=" }" />
-            <marker date="1517534523000" expanded="false" signature="5620:5631" ph=" { " />
-            <marker date="1517534523000" expanded="false" signature="5706:5712" ph=" }" />
-            <marker date="1517534523000" expanded="true" signature="5737:7098" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedBlockTNT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2061#2062#0" expanded="false" />
-            <element signature="e#2089#2090#0" expanded="false" />
-            <element signature="e#2116#2117#0" expanded="false" />
-            <element signature="e#2149#2150#0" expanded="false" />
-            <element signature="e#2305#4426#0" expanded="false" />
-            <element signature="e#4425#4426#0" expanded="false" />
-            <element signature="e#5384#5385#0" expanded="false" />
-            <element signature="e#5453#5454#0" expanded="false" />
-            <element signature="e#5508#5509#0" expanded="false" />
-            <element signature="e#5571#5572#0" expanded="false" />
-            <element signature="e#8517#8518#0" expanded="false" />
-            <element signature="e#8551#8552#0" expanded="false" />
-            <element signature="e#8587#8588#0" expanded="false" />
-            <element signature="e#8614#8615#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_7_R4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/World.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1908" column="13" lean-forward="false" selection-start-line="1908" selection-start-column="13" selection-end-line="1908" selection-end-column="13" />
-          <folding>
-            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1523118484000" expanded="false" signature="152:2097" ph="..." />
-            <marker date="1523118484000" expanded="true" signature="2269:2680" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2311:2396" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2438:2511" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="2542:2674" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="4475:4556" ph="add(blockState) → {" />
-            <marker date="1523118484000" expanded="false" signature="4942:4953" ph="}" />
-            <marker date="1523118484000" expanded="true" signature="5740:5910" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="5948:5959" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="6004:6010" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="6048:6059" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="6114:6120" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="6154:6165" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="6183:6189" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="6225:6236" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="6275:6281" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="6331:6419" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="6600:9306" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="7694:9035" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="7758:7920" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="8003:8166" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="8241:8405" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="8465:8635" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="8695:8867" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="8931:8946" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="9010:9025" ph="{}" />
-            <marker date="1523118484000" expanded="false" signature="9328:9339" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="9351:9357" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="9424:10428" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="9940:10236" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="9997:10094" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="10154:10218" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="10481:10492" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="10522:10528" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="10620:10631" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="10654:10660" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="10710:11014" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="11081:11304" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="11362:11454" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="11512:11523" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="11558:11564" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="11630:11779" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="11852:11920" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="12007:12210" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="12313:12401" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="12518:12700" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="12765:12776" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="12818:12824" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="12904:13095" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="13188:13642" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="13708:13836" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="13906:13999" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="14042:14053" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="14102:14108" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="14203:16644" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="16769:17145" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="17202:17290" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="17361:17849" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="17936:18009" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="18063:18190" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="18257:18478" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="18526:18850" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="18929:19087" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="19151:19287" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="19360:19721" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="19812:20485" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="20553:22505" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="21785:22317" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="21842:22175" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="22235:22299" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="22569:22580" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="22593:22599" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="22650:22661" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="22727:22733" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="22785:23540" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="23588:23928" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="23987:23998" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="24033:24039" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="24101:25432" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="25507:26127" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="26160:26526" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="26601:27092" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="27175:27433" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="27482:27609" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="27658:27669" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="27734:27740" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="27800:27811" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="27852:27858" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="27940:28718" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="28742:28753" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="28771:28777" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="28847:28920" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="29004:29076" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="29190:34709" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="34781:34942" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="35016:35205" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="35295:35429" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="35525:35532" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="35591:35721" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="35857:35946" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="36067:36218" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="36270:36326" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="36371:36382" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="36433:36439" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="36510:39560" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="39598:39747" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="39785:39935" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="39973:41042" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="41088:41818" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="41878:41889" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="41914:41920" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="42006:45170" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="45233:45680" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="45744:47134" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="47162:47566" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="47595:47606" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="47666:47672" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="47694:47705" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="47779:47785" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="47815:47891" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="47949:48031" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="48089:48686" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="48755:48762" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="48838:48845" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="48921:48928" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="48961:56310" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="56356:56557" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="56612:57068" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="57102:57113" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="57150:57156" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="57221:59823" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="59874:59885" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="59943:59949" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="60016:60411" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="60463:61306" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="61371:62209" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="62261:63276" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="63362:65178" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="65249:66065" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="66136:67399" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="67501:67581" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="67706:67876" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="67939:69297" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="69411:69722" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="69789:71107" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="71191:72179" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="72228:72708" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="72750:72761" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="72784:72790" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="72842:73073" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="73159:73652" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="73718:74131" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="74153:74252" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="74313:74390" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="74416:74427" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="74436:74442" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="74467:74647" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="74672:77069" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="77094:79496" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="79579:80758" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="80782:80793" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="80802:80808" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="80885:81014" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="81065:81076" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="81112:81118" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="81169:81180" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="81215:81221" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="81287:82265" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="82318:82412" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="82478:83119" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="83171:83399" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="83475:84683" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="84762:90377" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="90413:90424" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="90437:90443" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="90508:90519" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="90531:90537" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="90632:90643" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="90655:90661" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="90743:90815" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="90924:91559" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="91660:92044" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="92145:92526" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="92624:92696" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="92826:93461" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="93559:94067" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="94095:94106" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="94146:94152" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="94224:94345" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="94381:95091" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="95142:95476" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="95526:95537" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="95563:95569" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="95713:96466" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="96486:96497" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="96511:96517" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="96543:96554" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="96565:96571" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="96660:96816" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="96842:96853" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="96885:96891" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="96951:98138" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="98236:98316" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="98409:98652" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="98727:99217" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="99265:99749" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="99817:99905" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="99991:100580" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="100660:101052" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="101089:101356" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="101394:101668" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="101731:101779" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="101806:101817" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="101849:101855" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="101882:101893" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="101925:101931" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="101961:101972" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="102007:102013" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="102049:102060" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="102089:102095" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="102133:102503" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="102551:102562" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="102601:102607" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="102683:102694" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="102706:102712" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="102776:102783" ph="{}" />
-            <marker date="1523118484000" expanded="false" signature="102814:102825" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="102851:102857" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="102947:103027" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="103069:103080" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103104:103110" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="103147:103158" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103180:103186" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="103223:103234" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103260:103266" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="103303:103310" ph="{}" />
-            <marker date="1523118484000" expanded="true" signature="103347:103436" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="103465:103476" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103528:103534" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="103563:103574" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103612:103618" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="103642:103653" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103688:103694" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="103718:103729" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="103764:103770" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="103832:104251" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="104303:104400" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="104437:104448" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="104470:104476" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="104536:104547" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="104583:104589" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="104668:104679" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="104716:104722" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="104750:104761" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="104788:104794" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="104857:104990" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="105065:105128" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="105216:105963" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="105991:106002" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="106013:106019" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="106039:106050" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="106092:106098" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="106141:106318" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="106386:106464" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="106529:107577" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="106802:107054" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="106833:106852" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="106930:106944" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="106996:107044" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="107122:107338" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="107153:107172" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="107214:107228" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="107280:107328" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="107640:107825" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="107851:107993" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="108032:108043" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="108066:108072" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="108158:109160" ph="{...}" />
-            <marker date="1523118484000" expanded="true" signature="109227:109513" ph="{...}" />
-            <marker date="1523118484000" expanded="false" signature="109556:109567" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109610:109616" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109637:109648" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109662:109668" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109694:109705" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109716:109722" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109748:109759" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109770:109776" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109801:109812" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109834:109840" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109875:109886" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109907:109913" ph=" }" />
-            <marker date="1523118484000" expanded="false" signature="109954:109965" ph=" { " />
-            <marker date="1523118484000" expanded="false" signature="109979:109985" ph=" }" />
-            <marker date="1523118484000" expanded="true" signature="110022:110315" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/BlockRedstoneWire.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1420,34 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.9-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_9_R1/Block.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="420" column="33" lean-forward="false" selection-start-line="420" selection-start-column="31" selection-end-line="420" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_8_R1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="156" column="64" lean-forward="false" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -1500,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/PaperSpigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Block.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_8_R1/RegistryID.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1516,12 +992,710 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/BlockTNT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <marker date="1517534523000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1517534523000" expanded="false" signature="152:235" ph="..." />
+            <marker date="1517534523000" expanded="true" signature="383:526" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="617:875" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="981:1182" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="1275:2089" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="2182:2259" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="2371:3070" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="3248:3982" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="4082:4735" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="4778:4789" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="4802:4808" ph=" }" />
+            <marker date="1517534523000" expanded="false" signature="4853:4864" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="4917:4923" ph=" }" />
+            <marker date="1517534523000" expanded="false" signature="4975:4986" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="5034:5040" ph=" }" />
+            <marker date="1517534523000" expanded="false" signature="5085:5096" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="5156:5162" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="94" column="24" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="24" />
+          <folding>
+            <marker date="1517534523000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1517534523000" expanded="false" signature="152:396" ph="..." />
+            <marker date="1517534523000" expanded="false" signature="631:642" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="732:987" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="1103:1668" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="1693:1700" ph="{}" />
+            <marker date="1517534523000" expanded="false" signature="1728:1739" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="1752:1758" ph=" }" />
+            <marker date="1517534523000" expanded="false" signature="1783:1794" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="1812:1818" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="1841:3229" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="3258:4122" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="4176:4528" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="4582:5000" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="5037:5048" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="5067:5073" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="5128:5482" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="5507:5518" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="5580:5586" ph=" }" />
+            <marker date="1517534523000" expanded="false" signature="5620:5631" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="5706:5712" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="5737:7098" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/me/leftwitch/util/QuantumConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <marker date="1517534523000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1517534523000" expanded="false" signature="141:469" ph="..." />
+            <marker date="1517534523000" expanded="true" signature="945:1185" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="1214:1221" ph="{}" />
+            <marker date="1517534523000" expanded="true" signature="1268:1778" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="1810:2179" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/PaperSpigot-1.12.2-b1414.jar!/net/minecraft/server/v1_12_R1/PlayerConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="98" column="13" lean-forward="false" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/PaperSpigot-1.8-R0.1-SNAPSHOT-b235.jar!/net/minecraft/server/v1_8_R1/PacketPlayOutSpawnEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/GrassCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/out/WrappedNamedEntitySpawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/out/WrappedOutKeepAlivePacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/out/WrappedOutNamedEntitySpawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/commands/grassPatcher/args/ReloadArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/out/WrappedOutPositionPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/packet/in/WrappedInArmAnimationPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#958#959#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/api/TinyProtocolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#2262#2263#0" expanded="false" />
+            <element signature="e#2291#2292#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/QuantumSpigot v1.0.jar!/net/minecraft/server/v1_8_R3/PlayerConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="799" column="39" lean-forward="true" selection-start-line="799" selection-start-column="39" selection-end-line="799" selection-end-column="39" />
+          <folding>
+            <marker date="1517534523000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1517534523000" expanded="false" signature="152:4240" ph="..." />
+            <marker date="1517534523000" expanded="true" signature="5874:6109" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="6230:6947" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="6983:6994" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="7060:7066" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="7088:7990" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="8021:8032" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="8059:8065" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="8104:9238" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="8671:8780" ph="operationComplete(future) → {" />
+            <marker date="1517534523000" expanded="false" signature="8876:8895" ph="}" />
+            <marker date="1517534523000" expanded="false" signature="9074:9126" ph="run() → {" />
+            <marker date="1517534523000" expanded="false" signature="9201:9220" ph="}" />
+            <marker date="1517534523000" expanded="true" signature="9309:9556" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="9619:9862" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="9921:21256" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="21328:21394" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="21500:22864" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="22906:23039" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="23136:24305" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="24368:28228" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="28295:35064" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="35127:36110" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="36193:36623" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="36682:37437" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="37487:39506" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="39125:39416" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="39182:39274" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="39334:39398" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="39577:40644" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="40699:44974" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="41380:41454" ph="evaluate() → {" />
+            <marker date="1517534523000" expanded="false" signature="41620:41651" ph="}" />
+            <marker date="1517534523000" expanded="false" signature="42783:42849" ph="evaluate() → {" />
+            <marker date="1517534523000" expanded="false" signature="42989:43012" ph="}" />
+            <marker date="1517534523000" expanded="false" signature="43967:44037" ph="evaluate() → {" />
+            <marker date="1517534523000" expanded="false" signature="44180:44207" ph="}" />
+            <marker date="1517534523000" expanded="true" signature="45028:50197" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="45523:45593" ph="evaluate() → {" />
+            <marker date="1517534523000" expanded="false" signature="45721:45748" ph="}" />
+            <marker date="1517534523000" expanded="false" signature="46916:46986" ph="evaluate() → {" />
+            <marker date="1517534523000" expanded="false" signature="48498:48525" ph="}" />
+            <marker date="1517534523000" expanded="true" signature="50240:51472" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="51543:53155" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="53226:55416" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="55481:60022" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="60095:61826" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="61895:62144" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="62213:80298" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="80367:80808" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="80885:85414" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="85483:86021" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="86088:88264" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="88329:88507" ph="{...}" />
+            <marker date="1517534523000" expanded="false" signature="88529:88540" ph=" { " />
+            <marker date="1517534523000" expanded="false" signature="88576:88582" ph=" }" />
+            <marker date="1517534523000" expanded="true" signature="88647:89282" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="89351:90151" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="90214:90359" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="90432:101421" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="101459:101557" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="101593:104566" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="101746:104520" ph="{...}" />
+            <marker date="1517534523000" expanded="true" signature="104549:104560" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/listeners/EntitySpawnEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="79" lean-forward="false" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/api/TinyProtocol1_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="500" column="33" lean-forward="false" selection-start-line="500" selection-start-column="24" selection-end-line="500" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/GrassPatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="-402">
+          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/spigotmc/SpigotConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/IBlockAccess.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/utils/MathUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ngxdev/tinyprotocol/api/ProtocolVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/PaperSpigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Block.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="529" column="27" lean-forward="false" selection-start-line="529" selection-start-column="16" selection-end-line="529" selection-end-column="27" />
+          <folding>
+            <marker date="1528379456000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1528379456000" expanded="false" signature="152:941" ph="..." />
+            <marker date="1528379456000" expanded="true" signature="2496:4101" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="2947:3148" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="2990:3009" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3028:3042" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="3085:3104" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3124:3138" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="3364:3468" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="3407:3426" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3444:3458" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="3523:3731" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="3566:3585" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3604:3618" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="3661:3680" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3707:3721" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="3786:4094" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="3829:3848" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3871:3885" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="3928:3947" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="3970:3984" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="4026:4045" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="4070:4084" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="4133:4276" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="4318:4329" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="4354:4360" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="4421:4543" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="4583:4594" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="4622:4628" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="4682:4790" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="4834:4845" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="4909:4915" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="4961:5321" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="5345:5356" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5370:5376" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5396:5407" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5421:5427" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5447:5458" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5472:5478" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5502:5513" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5527:5533" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5568:5579" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5600:5606" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5660:5671" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5685:5691" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="5736:5747" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="5774:5780" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="5833:6066" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="6181:6215" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="6288:6735" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="6775:6786" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="6815:6821" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="6878:6948" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="6979:7027" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="7060:7123" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="7156:7220" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="7244:7255" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7298:7304" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7338:7349" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7411:7417" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7441:7452" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7495:7501" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7525:7536" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7548:7554" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7632:7643" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7675:7681" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7701:7712" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7721:7727" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="7791:7802" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="7815:7821" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="7854:8002" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="8028:8079" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="8141:8152" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="8173:8179" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="8217:8268" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="8300:8311" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="8325:8331" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="8366:8377" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="8402:8408" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="8496:8694" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="8802:8900" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="9055:9265" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="9359:9652" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="9676:9687" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="9699:9705" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="9764:9775" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="9791:9797" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="9821:9832" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="9844:9850" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="9950:10015" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="10115:10122" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="10215:10222" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="10328:10335" ph="{}" />
+            <marker date="1528379456000" expanded="false" signature="10366:10377" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="10387:10393" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="10484:10538" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="10628:10681" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="10714:10725" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="10734:10740" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="10814:10825" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="10853:10859" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="10955:11136" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="11234:11312" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="11425:11904" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="11994:12645" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="12730:13087" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="13138:13149" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="13158:13164" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="13199:13210" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="13240:13246" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="13351:16264" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="16301:16441" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="16478:16618" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="16655:16795" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="16888:16895" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="17017:17091" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="17192:17251" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="17323:17411" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="17589:17618" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="17695:17702" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="17875:17921" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="18013:18020" ph="{}" />
+            <marker date="1528379456000" expanded="false" signature="18110:18121" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18134:18140" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="18226:18233" ph="{}" />
+            <marker date="1528379456000" expanded="false" signature="18262:18273" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18290:18296" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="18325:18336" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18353:18359" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="18388:18399" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18416:18422" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="18451:18462" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18479:18485" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="18514:18525" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18542:18548" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="18577:18588" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18605:18611" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="18738:18763" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="18799:18810" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="18823:18829" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="18929:18936" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="19063:19088" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="19110:19117" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="19250:19820" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="19847:19858" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="19896:19902" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="19953:20161" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="20212:20223" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20245:20251" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="20392:20399" ph="{}" />
+            <marker date="1528379456000" expanded="false" signature="20423:20434" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20499:20505" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="20536:20587" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="20616:20627" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20669:20675" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="20698:20709" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20736:20742" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="20843:20854" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20867:20873" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="20897:20908" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="20922:20928" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="20954:21006" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="21026:21037" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21076:21082" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="21172:21183" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21201:21207" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="21254:21265" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21284:21290" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="21361:21431" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="21485:21557" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="21667:21674" ph="{}" />
+            <marker date="1528379456000" expanded="true" signature="21736:21743" ph="{}" />
+            <marker date="1528379456000" expanded="false" signature="21767:21778" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21790:21796" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="21839:21850" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21862:21868" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="21903:21914" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="21935:21941" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="21998:22106" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="22146:22157" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22170:22176" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22236:22247" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22256:22262" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22307:22318" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22370:22376" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22407:22418" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22445:22451" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22502:22513" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22541:22547" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22591:22602" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22624:22630" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="22660:22671" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="22712:22718" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="22747:44961" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="45035:45046" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45081:45087" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="45144:45155" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45188:45194" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="45273:45284" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45293:45299" ph=" }" />
+            <marker date="1528379456000" expanded="true" signature="45366:45497" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="45533:46185" ph="{...}" />
+            <marker date="1528379456000" expanded="true" signature="45681:45765" ph="{...}" />
+            <marker date="1528379456000" expanded="false" signature="45800:45815" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45829:45839" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="45874:45889" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45903:45913" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="45952:45967" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="45990:46000" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="46038:46053" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="46077:46087" ph=" }" />
+            <marker date="1528379456000" expanded="false" signature="46126:46141" ph=" { " />
+            <marker date="1528379456000" expanded="false" signature="46169:46179" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.10.2-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_10_R1/Explosion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1424">
+          <caret line="118" column="73" lean-forward="false" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="73" />
+          <folding>
+            <marker date="1528379520000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1528379520000" expanded="false" signature="153:609" ph="..." />
+            <marker date="1528379520000" expanded="true" signature="1218:1456" ph="{...}" />
+            <marker date="1528379520000" expanded="true" signature="1478:6826" ph="{...}" />
+            <marker date="1528379520000" expanded="true" signature="6860:12035" ph="{...}" />
+            <marker date="1528379520000" expanded="false" signature="12075:12086" ph=" { " />
+            <marker date="1528379520000" expanded="false" signature="12100:12106" ph=" }" />
+            <marker date="1528379520000" expanded="true" signature="12144:12439" ph="{...}" />
+            <marker date="1528379520000" expanded="false" signature="12470:12481" ph=" { " />
+            <marker date="1528379520000" expanded="false" signature="12501:12507" ph=" }" />
+            <marker date="1528379520000" expanded="false" signature="12551:12562" ph=" { " />
+            <marker date="1528379520000" expanded="false" signature="12581:12587" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Explosion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="195" column="103" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="103" />
+          <folding>
+            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523118484000" expanded="false" signature="152:607" ph="..." />
+            <marker date="1523118484000" expanded="true" signature="1216:1454" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="1476:6475" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="6509:11717" ph="{...}" />
+            <marker date="1523118484000" expanded="false" signature="11757:11768" ph=" { " />
+            <marker date="1523118484000" expanded="false" signature="11782:11788" ph=" }" />
+            <marker date="1523118484000" expanded="true" signature="11826:12121" ph="{...}" />
+            <marker date="1523118484000" expanded="false" signature="12152:12163" ph=" { " />
+            <marker date="1523118484000" expanded="false" signature="12183:12189" ph=" }" />
+            <marker date="1523118484000" expanded="true" signature="12233:12244" ph=" { " />
+            <marker date="1523118484000" expanded="true" signature="12263:12269" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/org/spigotmc/AntiXray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <marker date="1523118484000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1523118484000" expanded="false" signature="136:469" ph="..." />
+            <marker date="1523118484000" expanded="true" signature="852:1480" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="1554:1746" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="1843:2045" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="2138:5228" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="5335:6126" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="6213:6566" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="6672:7170" ph="{...}" />
+            <marker date="1523118484000" expanded="true" signature="7225:7326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/craftbukkit-1.8.8.jar!/net/minecraft/server/v1_8_R3/Explosion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="181" column="102" lean-forward="true" selection-start-line="181" selection-start-column="102" selection-end-line="181" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/Entity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="2072" column="22" lean-forward="false" selection-start-line="2072" selection-start-column="19" selection-end-line="2072" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.9-R0.1-SNAPSHOT.jar!/net/minecraft/server/v1_9_R1/Block.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="383" column="27" lean-forward="false" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="27" />
+          <folding>
+            <element signature="e#14307#14308#0" expanded="true" />
+            <element signature="e#14335#14336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedBlockTNT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4834#4835#0" expanded="true" />
+            <element signature="e#4862#4863#0" expanded="true" />
+            <element signature="e#4909#4910#0" expanded="true" />
+            <element signature="e#4977#4978#0" expanded="true" />
+            <element signature="e#5031#5032#0" expanded="true" />
+            <element signature="e#5095#5096#0" expanded="true" />
+            <element signature="e#5142#5143#0" expanded="true" />
+            <element signature="e#5217#5218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/World.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1738" column="4" lean-forward="false" selection-start-line="1738" selection-start-column="4" selection-end-line="1747" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedRedstoneWirev1_8_R1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1492">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/NerdStuff/Server Versions/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/net/minecraft/server/v1_8_R3/EntityTNTPrimed.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="76" column="13" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#3140#3141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/PatchedPrimedTnt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="391" column="25" lean-forward="false" selection-start-line="391" selection-start-column="25" selection-end-line="391" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15646#15647#0" expanded="true" />
+            <element signature="e#15715#15716#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#15833#15834#0" expanded="true" />
+            <element signature="e#17730#17731#0" expanded="true" />
+            <element signature="e#17764#17765#0" expanded="true" />
+            <element signature="e#17800#17801#0" expanded="true" />
+            <element signature="e#17827#17828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc/funkemunky/patcher/objects/Explosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="196" column="46" lean-forward="false" selection-start-line="196" selection-start-column="46" selection-end-line="196" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#13099#13100#0" expanded="true" />
+            <element signature="e#13128#13129#0" expanded="true" />
+            <element signature="e#13815#13816#0" expanded="true" />
+            <element signature="e#13849#13850#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1604,7 +1778,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>paperspigot-1.7.10-R0.1-SNAPSHOT</last-edited>
+          <last-edited>spigot-1.7.10-SNAPSHOT-b1649</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
