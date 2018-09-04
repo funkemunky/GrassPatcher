@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="beer">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/beer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/beer.jar!/" />
+    </SOURCES>
+  </library>
+</component>

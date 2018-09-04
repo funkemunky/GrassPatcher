@@ -1,21 +1,22 @@
 package cc.funkemunky.patcher.objects;
 
+
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
 import net.minecraft.server.v1_8_R3.AxisAlignedBB;
-import net.minecraft.server.v1_8_R3.BlockPosition;
-import net.minecraft.server.v1_8_R3.Blocks;
-import net.minecraft.server.v1_8_R3.DamageSource;
-import net.minecraft.server.v1_8_R3.EnchantmentProtection;
 import net.minecraft.server.v1_8_R3.Entity;
 import net.minecraft.server.v1_8_R3.EntityFallingBlock;
 import net.minecraft.server.v1_8_R3.EntityFireball;
 import net.minecraft.server.v1_8_R3.EntityHuman;
 import net.minecraft.server.v1_8_R3.EntityLiving;
 import net.minecraft.server.v1_8_R3.EntityTNTPrimed;
-import net.minecraft.server.v1_8_R3.EnumParticle;
-import net.minecraft.server.v1_8_R3.IBlockData;
 import net.minecraft.server.v1_8_R3.Material;
 import net.minecraft.server.v1_8_R3.MathHelper;
 import net.minecraft.server.v1_8_R3.Vec3D;
@@ -25,13 +26,6 @@ import org.bukkit.block.Block;
 import org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory;
 import org.bukkit.event.block.BlockExplodeEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
-
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
 
 public class Explosion {
     private final boolean a;
@@ -83,10 +77,11 @@ public class Explosion {
                                 BlockPosition blockposition = new BlockPosition(d4, d5, d6);
                                 IBlockData iblockdata = this.world.getType(blockposition);
                                 if (iblockdata.getBlock().getMaterial() != Material.AIR) {
-                                    float f2 = this.source != null ? a(this, this.world, blockposition, iblockdata) : iblockdata.getBlock().a((Entity)null);
+                                    float f2 = this.source != null ? this.source.a(this, this.world, blockposition, iblockdata) : iblockdata.getBlock().a((Entity)null);
                                     f -= (f2 + 0.3F) * 0.3F;
                                 }
-                                if (f > 0.0F && (this.source == null || a(this, this.world, blockposition, iblockdata, f)) && blockposition.getY() < 256 && blockposition.getY() >= 0) {
+
+                                if (f > 0.0F && (this.source == null || this.source.a(this, this.world, blockposition, iblockdata, f)) && blockposition.getY() < 256 && blockposition.getY() >= 0) {
                                     hashset.add(blockposition);
                                 }
 
@@ -107,17 +102,11 @@ public class Explosion {
             int i1 = MathHelper.floor(this.posY + (double)f3 + 1.0D);
             int j1 = MathHelper.floor(this.posZ - (double)f3 - 1.0D);
             int k1 = MathHelper.floor(this.posZ + (double)f3 + 1.0D);
-            List<Entity> list = Lists.newArrayList();
-
-            final List<Entity> entities = this.world.getEntities(this.source, new AxisAlignedBB((double) i, (double) l, (double) j1, (double) j, (double) i1, (double) k1));
-
-            synchronized (entities) {
-                list.addAll(entities);
-            }
-
+            List list = this.world.getEntities(this.source, new AxisAlignedBB((double)i, (double)l, (double)j1, (double)j, (double)i1, (double)k1));
             Vec3D vec3d = new Vec3D(this.posX, this.posY, this.posZ);
 
-            list.parallelStream().forEach(entity -> {
+            for(int l1 = 0; l1 < list.size(); ++l1) {
+                Entity entity = (Entity)list.get(l1);
                 if (!entity.aW()) {
                     double d7 = entity.f(this.posX, this.posY, this.posZ) / (double)f3;
                     if (d7 <= 1.0D) {
@@ -133,7 +122,7 @@ public class Explosion {
                             double d13 = (1.0D - d7) * d12;
                             CraftEventFactory.entityDamage = this.source;
                             entity.forceExplosionKnockback = false;
-                            boolean wasDamaged = entity.damageEntity(DamageSource.explosion(new net.minecraft.server.v1_8_R3.Explosion(world, source, posX, posY, posZ, size, a, b)), (float)((int)((d13 * d13 + d13) / 2.0D * 8.0D * (double)f3 + 1.0D)));
+                            boolean wasDamaged = entity.damageEntity(DamageSource.explosion(this), (float)((int)((d13 * d13 + d13) / 2.0D * 8.0D * (double)f3 + 1.0D)));
                             CraftEventFactory.entityDamage = null;
                             if (wasDamaged || entity instanceof EntityTNTPrimed || entity instanceof EntityFallingBlock || entity.forceExplosionKnockback) {
                                 double d14 = EnchantmentProtection.a(entity, d13);
@@ -147,7 +136,7 @@ public class Explosion {
                         }
                     }
                 }
-            });
+            }
 
         }
     }
@@ -168,12 +157,13 @@ public class Explosion {
             Location location = new Location(bworld, this.posX, this.posY, this.posZ);
             List<Block> blockList = Lists.newArrayList();
 
-            blocks.parallelStream().forEach(cpos -> {
+            for(int i1 = this.blocks.size() - 1; i1 >= 0; --i1) {
+                BlockPosition cpos = (BlockPosition)this.blocks.get(i1);
                 Block bblock = bworld.getBlockAt(cpos.getX(), cpos.getY(), cpos.getZ());
                 if (bblock.getType() != org.bukkit.Material.AIR) {
                     blockList.add(bblock);
                 }
-            });
+            }
 
             boolean cancelled;
             List bukkitBlocks;
@@ -193,12 +183,13 @@ public class Explosion {
             }
 
             this.blocks.clear();
+            Iterator var10 = bukkitBlocks.iterator();
 
-            bukkitBlocks.parallelStream().filter(block -> block != null).forEach(block -> {
-                Block bblock = (Block) block;
+            while(var10.hasNext()) {
+                Block bblock = (Block)var10.next();
                 BlockPosition coords = new BlockPosition(bblock.getX(), bblock.getY(), bblock.getZ());
                 this.blocks.add(coords);
-            });
+            }
 
             if (cancelled) {
                 this.wasCanceled = true;
@@ -210,6 +201,7 @@ public class Explosion {
             while(iterator.hasNext()) {
                 blockposition = (BlockPosition)iterator.next();
                 net.minecraft.server.v1_8_R3.Block block = this.world.getType(blockposition).getBlock();
+                this.world.spigotConfig.antiXrayInstance.updateNearbyBlocks(this.world, blockposition);
                 if (flag) {
                     double d0 = (double)((float)blockposition.getX() + this.world.random.nextFloat());
                     double d1 = (double)((float)blockposition.getY() + this.world.random.nextFloat());
@@ -227,22 +219,16 @@ public class Explosion {
                     d4 *= d7;
                     d5 *= d7;
                     this.world.addParticle(EnumParticle.EXPLOSION_NORMAL, (d0 + this.posX * 1.0D) / 2.0D, (d1 + this.posY * 1.0D) / 2.0D, (d2 + this.posZ * 1.0D) / 2.0D, d3, d4, d5, new int[0]);
-                    this.world.addParticle(EnumParticle.SMOKE_NORMAL, d0, d1, d2, d3, d4, d5);
+                    this.world.addParticle(EnumParticle.SMOKE_NORMAL, d0, d1, d2, d3, d4, d5, new int[0]);
                 }
 
-                if (block.getMaterial() != Material.AIR
-                        && block.getMaterial() != Material.TNT) {
-                    if (block.a(new net.minecraft.server.v1_8_R3.Explosion(world, source, posX, posY, posZ, size, a, b))) {
+                if (block.getMaterial() != Material.AIR) {
+                    if (block.a(this)) {
                         block.dropNaturally(this.world, blockposition, this.world.getType(blockposition), yield, 0);
                     }
 
                     this.world.setTypeAndData(blockposition, Blocks.AIR.getBlockData(), 3);
-                    block.wasExploded(this.world, blockposition, new net.minecraft.server.v1_8_R3.Explosion(world, source, posX, posY, posZ, size, a, b));
-                } else if(block.getMaterial() == Material.TNT) {
-                    PatchedBlockTNT tnt = (PatchedBlockTNT) block;
-
-                    tnt.wasExploded(world, blockposition, this);
-                    this.world.setTypeAndData(blockposition, Blocks.AIR.getBlockData(), 3);
+                    block.wasExploded(this.world, blockposition, this);
                 }
             }
         }
@@ -252,7 +238,7 @@ public class Explosion {
 
             while(iterator.hasNext()) {
                 blockposition = (BlockPosition)iterator.next();
-                if (this.world.getType(blockposition).getBlock().getMaterial() == Material.AIR && this.world.getType(blockposition.down()).getBlock().o() && this.c.nextInt(3) == 0 && !CraftEventFactory.callBlockIgniteEvent(this.world, blockposition.getX(), blockposition.getY(), blockposition.getZ(), new net.minecraft.server.v1_8_R3.Explosion(world, source, posX, posY, posZ, size, a, b)).isCancelled()) {
+                if (this.world.getType(blockposition).getBlock().getMaterial() == Material.AIR && this.world.getType(blockposition.down()).getBlock().o() && this.c.nextInt(3) == 0 && !CraftEventFactory.callBlockIgniteEvent(this.world, blockposition.getX(), blockposition.getY(), blockposition.getZ(), this).isCancelled()) {
                     this.world.setTypeUpdate(blockposition, Blocks.FIRE.getBlockData());
                 }
             }
@@ -268,12 +254,8 @@ public class Explosion {
         return this.source == null ? null : (this.source instanceof EntityTNTPrimed ? ((EntityTNTPrimed)this.source).getSource() : (this.source instanceof EntityLiving ? (EntityLiving)this.source : (this.source instanceof EntityFireball ? ((EntityFireball)this.source).shooter : null)));
     }
 
-    public float a(Explosion explosion, World world, BlockPosition blockposition, IBlockData iblockdata) {
-        return iblockdata.getBlock().a(source);
-    }
-
-    public boolean a(Explosion explosion, World world, BlockPosition blockposition, IBlockData iblockdata, float f) {
-        return true;
+    public void clearBlocks() {
+        this.blocks.clear();
     }
 
     public List<BlockPosition> getBlocks() {
