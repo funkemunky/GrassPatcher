@@ -12,7 +12,8 @@ import java.lang.reflect.Method;
 
 public enum CustomEntityType {
 
-    PrimedTNT("PrimedTnt", 20, EntityType.PRIMED_TNT, EntityTNTPrimed.class, PatchedPrimedTnt.class), FallingSand("FallingSand", 21, EntityType.FALLING_BLOCK, EntityFallingBlock.class, PatchedEntityFallingBlock.class);
+    PrimedTNT("PrimedTnt", 20, EntityType.PRIMED_TNT, EntityTNTPrimed.class, PatchedPrimedTnt.class);
+    FallingSand("FallingSand", 21, EntityType.FALLING_BLOCK, EntityFallingBlock.class, PatchedEntityFallingBlock.class);
 
     private String name;
     private int id;
